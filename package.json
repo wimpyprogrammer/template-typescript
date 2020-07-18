@@ -9,7 +9,12 @@
   "engines": {
     "node": ">=14"
   },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
     "prettier": "^2.0.5"
   }
 }
