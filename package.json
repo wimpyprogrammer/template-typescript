@@ -10,12 +10,14 @@
     "node": ">=14"
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "npm run clean && babel src -d lib",
+    "clean": "rimraf lib/*"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2"
   }
 }
