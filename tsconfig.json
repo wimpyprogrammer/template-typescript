@@ -3,6 +3,7 @@
 		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
 		"baseUrl": "./",
+		"checkJs": true,
 		"rootDir": "./",
 		"module": "es2015",
 		"noEmit": true,
