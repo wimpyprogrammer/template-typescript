@@ -1,9 +1,5 @@
 module.exports = {
-	moduleFileExtensions: ['js', 'json', 'ts'],
+	preset: 'ts-jest',
 	testEnvironment: 'node',
-	testMatch: ['**/src/**/?*.spec.(js|ts)'],
-	transform: {
-		'^.+\\.ts$': 'ts-jest',
-	},
 	verbose: true,
 };
