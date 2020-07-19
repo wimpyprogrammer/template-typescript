@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm run clean && babel src -d lib --extensions '.js,.ts'",
     "clean": "rimraf lib/*",
-    "lint": "tsc; eslint . --ext .js,.ts",
+    "lint": "tsc && eslint . --ext .js,.ts",
     "test": "jest"
   },
   "devDependencies": {
