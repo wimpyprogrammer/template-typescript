@@ -4,6 +4,7 @@
 		"allowSyntheticDefaultImports": true,
 		"baseUrl": "./",
 		"checkJs": true,
+		"forceConsistentCasingInFileNames": true,
 		"rootDir": "./",
 		"module": "es2015",
 		"noEmit": true,
