@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build": "npm run clean && babel src -d lib --extensions '.js,.ts'",
-    "clean": "rimraf lib/*"
+    "clean": "rimraf lib/*",
+    "lint": "tsc"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
