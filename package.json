@@ -11,8 +11,9 @@
   },
   "scripts": {
     "build": "npm run clean && babel src -d lib --extensions '.js,.ts' --ignore '**/*.spec.js','**/*.spec.ts'",
+    "build-types": "tsc --emitDeclarationOnly",
     "clean": "rimraf lib/*",
-    "lint": "tsc && eslint . --ext .js,.ts --report-unused-disable-directives",
+    "lint": "tsc --noEmit && eslint . --ext .js,.ts --report-unused-disable-directives",
     "test": "jest --coverage"
   },
   "devDependencies": {
