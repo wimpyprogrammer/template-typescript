@@ -1,2 +1,4 @@
 /coverage/
+/demo/lib/
 /lib/
+webpack.config.js
