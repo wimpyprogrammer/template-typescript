@@ -21,6 +21,7 @@
 	},
 	"files": [],
 	"references": [
+		{ "path": "./demo" },
 		{ "path": "./src" },
 		{ "path": "./src/tsconfig.test.json" }
 	]

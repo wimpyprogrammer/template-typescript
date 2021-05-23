@@ -1,5 +1,5 @@
 module.exports = {
-	collectCoverageFrom: ['**/src/**/?*.(js|ts)', '!**/src/**/?*.d.ts'],
+	collectCoverageFrom: ['./src/**/?*.(js|ts)', '!**/src/**/?*.d.ts'],
 	restoreMocks: true,
 	globals: {
 		'ts-jest': {
