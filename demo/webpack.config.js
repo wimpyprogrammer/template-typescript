@@ -1,7 +1,7 @@
 /// <reference types="node" />
 const { resolve } = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	entry: './demo/src/index.ts',
@@ -32,7 +32,7 @@ module.exports = {
 						},
 					},
 				],
-			}
+			},
 		],
 	},
 	output: {
