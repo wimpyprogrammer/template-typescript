@@ -31,6 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn --frozen-lockfile
+      - run: npx prettier --check .
       - run: yarn run lint
       - run: yarn run build
       - run: yarn test
