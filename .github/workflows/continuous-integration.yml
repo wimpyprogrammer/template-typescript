@@ -1,6 +1,14 @@
 name: Continuous Integration
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  schedule:
+    # 00:00 on Saturdays
+    - cron: '0 0 * * SAT'
+  workflow_dispatch:
 
 jobs:
   build:
