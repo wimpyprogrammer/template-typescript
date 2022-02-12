@@ -1,4 +1,4 @@
-import add from '../../src';
+import add from 'template-typescript';
 
 const num1 = document.getElementById('num1') as HTMLInputElement;
 const num2 = document.getElementById('num2') as HTMLInputElement;

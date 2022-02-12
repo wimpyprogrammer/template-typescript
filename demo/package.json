@@ -1,0 +1,21 @@
+{
+  "name": "template-typescript-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp --config webpack.config.js",
+    "start": "npm run build && npx http-server ./lib/ -c-1 -p 80",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-nano": "^1.1.1"
+  },
+  "dependencies": {
+    "template-typescript": "*"
+  }
+}
