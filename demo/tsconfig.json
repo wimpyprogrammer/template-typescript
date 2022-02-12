@@ -8,5 +8,5 @@
 	},
 	"extends": "../tsconfig.json",
 	"include": ["src"],
-	"references": [{ "path": "../packages/package-name/src" }]
+	"references": [{ "path": "../packages/package-name" }]
 }

@@ -22,7 +22,7 @@
 	"files": [],
 	"references": [
 		{ "path": "./demo" },
-		{ "path": "./packages/package-name/src" },
-		{ "path": "./packages/package-name/src/tsconfig.test.json" }
+		{ "path": "./packages/package-name" },
+		{ "path": "./packages/package-name/tsconfig.test.json" }
 	]
 }
