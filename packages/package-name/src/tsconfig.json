@@ -4,7 +4,7 @@
 		"outDir": "../lib",
 		"rootDir": "./"
 	},
-	"extends": "../tsconfig.json",
+	"extends": "../../../tsconfig.json",
 	"exclude": ["../**/*.spec.ts", "../**/*.config.js"],
 	"include": ["./**/*"]
 }

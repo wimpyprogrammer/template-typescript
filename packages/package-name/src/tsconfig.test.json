@@ -6,7 +6,7 @@
 		"tsBuildInfoFile": "../lib/test.tsbuildinfo",
 		"types": ["jest"]
 	},
-	"extends": "../tsconfig.json",
+	"extends": "../../../tsconfig.json",
 	"include": ["./**/*.spec.ts", "../jest.config.js"],
 	"references": [{ "path": "./" }]
 }
