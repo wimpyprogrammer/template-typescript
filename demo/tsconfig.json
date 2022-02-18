@@ -2,8 +2,8 @@
 	"compilerOptions": {
 		"lib": ["dom", "es5"],
 		"noEmit": true,
-		"outDir": "./lib",
-		"rootDir": "./src",
+		"outDir": "lib",
+		"rootDir": "src",
 		"tsBuildInfoFile": "./lib/demo.tsbuildinfo"
 	},
 	"extends": "../tsconfig.json",
