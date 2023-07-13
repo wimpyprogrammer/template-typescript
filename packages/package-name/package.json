@@ -7,7 +7,7 @@
   "author": "Drew Keller <drew@wimpyprogrammer.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "scripts": {
     "build": "tsc -b --clean && tsc -b",
