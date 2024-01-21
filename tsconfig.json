@@ -17,12 +17,12 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"types": []
+		"types": [],
 	},
 	"files": [],
 	"references": [
 		{ "path": "./demo" },
 		{ "path": "./packages/package-name" },
-		{ "path": "./packages/package-name/tsconfig.test.json" }
-	]
+		{ "path": "./packages/package-name/tsconfig.test.json" },
+	],
 }
