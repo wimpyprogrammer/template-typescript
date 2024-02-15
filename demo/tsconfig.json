@@ -4,9 +4,9 @@
 		"noEmit": true,
 		"outDir": "lib",
 		"rootDir": "src",
-		"tsBuildInfoFile": "./lib/demo.tsbuildinfo",
+		"tsBuildInfoFile": "./lib/demo.tsbuildinfo"
 	},
 	"extends": "../tsconfig.json",
 	"include": ["src"],
-	"references": [{ "path": "../packages/package-name" }],
+	"references": [{ "path": "../packages/package-name" }]
 }
