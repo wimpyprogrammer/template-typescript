@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { defaults: tsjPreset } = require('ts-jest/presets');
+const { createDefaultPreset } = require('ts-jest');
 
 module.exports = {
 	collectCoverageFrom: ['./src/**/?*.(js|ts)', '!**/src/**/?*.d.ts'],
 	restoreMocks: true,
 	testEnvironment: 'node',
 	transform: {
-		...tsjPreset.transform,
-		'^.+\\.tsx?$': [
+		...createDefaultPreset().transform,
+		'^.+.tsx?$': [
 			'ts-jest',
 			{ isolatedModules: true, tsconfig: 'tsconfig.test.json' },
 		],
