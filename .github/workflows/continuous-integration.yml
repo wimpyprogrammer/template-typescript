@@ -19,7 +19,7 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
